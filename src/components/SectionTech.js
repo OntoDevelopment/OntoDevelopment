@@ -75,6 +75,19 @@ export default function SectionTech() {
                     </div>
                     <div className="col-sm-4 col-sm-offset-0 col-xs-9 col-xs-offset-3">
                         <h3 className="font-bold">
+                            <FontAwesomeIcon icon={faPaypal} fixedWidth /> Paypal
+                        </h3>
+                        <ul className="list-custom">
+                            <li>JS SDK Integration (Client & Node.js)</li>
+                            <li>PHP SDK Integration</li>
+                        </ul>
+                        <h3 className="font-bold">
+                            <FontAwesomeIcon icon={faCreditCard} fixedWidth /> Authorize.Net
+                        </h3>
+                        <ul className="list-custom">
+                            <li>PHP SDK Integration</li>
+                        </ul>
+                        <h3 className="font-bold">
                             <FontAwesomeIcon icon={faCcStripe} fixedWidth /> Stripe
                         </h3>
                         <ul className="list-custom">
@@ -92,19 +105,6 @@ export default function SectionTech() {
                         </h3>
                         <ul className="list-custom">
                             <li>API Integration</li>
-                        </ul>
-                        <h4 className="font-bold">
-                            <FontAwesomeIcon icon={faPaypal} fixedWidth /> Paypal
-                        </h4>
-                        <ul className="list-custom">
-                            <li>JS SDK Integration (Client & Node.js)</li>
-                            <li>PHP SDK Integration</li>
-                        </ul>
-                        <h4 className="font-bold">
-                            <FontAwesomeIcon icon={faCreditCard} fixedWidth /> Authorize.Net
-                        </h4>
-                        <ul className="list-custom">
-                            <li>PHP SDK Integration</li>
                         </ul>
                     </div>
                 </div>
