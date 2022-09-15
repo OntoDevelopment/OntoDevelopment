@@ -2,7 +2,7 @@ import Section from "./Section";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCode, faCreditCard, faTerminal } from "@fortawesome/free-solid-svg-icons";
-import { faWordpress, faTwitter, faPaypal, faRebel, faFacebook } from "@fortawesome/free-brands-svg-icons";
+import { faWordpress, faTwitter, faPaypal, faRebel, faFacebook, faCcStripe } from "@fortawesome/free-brands-svg-icons";
 
 export default function SectionTech() {
     return (
