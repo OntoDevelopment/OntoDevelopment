@@ -28,18 +28,18 @@ export default function SectionTech() {
                             <li>Custom Themes</li>
                             <li>Custom Plugins</li>
                         </ul>
-                        <h4 className="font-bold">
+                        <h3 className="font-bold">
                             <FontAwesomeIcon icon={faRebel} fixedWidth /> Rebel
-                        </h4>
+                        </h3>
                         <ul className="list-custom">
                             <li>Fight the Empire</li>
                             <li>Get your attention</li>
                         </ul>
                     </div>
                     <div className="col-sm-4 col-sm-offset-0 col-xs-9 col-xs-offset-3">
-                        <h4 className="font-bold">
+                        <h3 className="font-bold">
                             <FontAwesomeIcon icon={faTerminal} fixedWidth /> Frameworks & Libraries
-                        </h4>
+                        </h3>
                         <ul className="list-custom">
                             <li>
                                 Laravel <sup>9.x - 5.x</sup>
