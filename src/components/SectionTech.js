@@ -53,9 +53,7 @@ export default function SectionTech() {
                             <li>
                                 React Native <sup>.7x, .6x</sup>
                             </li>
-                            <li>
-                                Expo managed workflow
-                            </li>
+                            <li>Expo managed workflow</li>
                             <li>
                                 Vue <sup>3.x 2.x</sup>
                             </li>
@@ -68,9 +66,7 @@ export default function SectionTech() {
                             <li>
                                 Tailwind CSS <sup>3.x</sup>
                             </li>
-                            <li>
-                               Other: Guzzle, Axios, SASS
-                            </li>
+                            <li>Other: Guzzle, Axios, SASS</li>
                         </ul>
                     </div>
                     <div className="col-sm-4 col-sm-offset-0 col-xs-9 col-xs-offset-3">
