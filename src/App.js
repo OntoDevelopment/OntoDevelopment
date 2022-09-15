@@ -8,11 +8,15 @@ import SectionContact from "./components/SectionContact";
 import SectionAbout from "./components/SectionAbout";
 
 function App() {
-
     return (
         <div className="App">
             <Section className="bg-orange">
-              <img src={logo} alt="OntoDevelopment" aria-label="Logo for OntoDevelopment" className="mx-auto" />
+                <div className="my-8">
+                    <img src={logo} alt="OntoDevelopment" aria-label="Logo for Onto Development" className="mx-auto" />
+                </div>
+                <h1 className="my-8 text-center text-3xl">
+                    Brian Wendt, Sr. Web Developer
+                </h1>
             </Section>
             <SectionTech />
             <SectionGithub />
