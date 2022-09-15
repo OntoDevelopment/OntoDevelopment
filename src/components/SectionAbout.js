@@ -26,7 +26,7 @@ export default function SectionAbout(props) {
                 <i> Adobe Dreamweaver</i> while learning CSS and the basics of Javascript. Brian's first job in the IT world provided more opportunities to learn more web design and dabble in PHP and MySQL.
             </p>
             <p className="text-justify mb-2">
-                Brian dove head first into development and at age 19 he had his first job as a Web Developer. At age 21 he began working for the national media company <i>Village Voice Media</i> known for the <i>The Village Voice</i> and <i>The Phoenix New Times</i> news weeklies. A year later Brian
+                Brian dove head first into development and at age 19 he had his first job as a Web Developer. At age 21 he began working for the national media company <i>Village Voice Media</i> known for <i>The Village Voice</i> and <i>The Phoenix New Times</i> news weeklies. A year later Brian
                 became the Lead Developer at a print and digital marketing agency.
             </p>
             <p className="text-left mb-2 text-slate-500" onClick={() => setReadMore(true)}>
