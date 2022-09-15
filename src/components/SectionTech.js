@@ -74,6 +74,12 @@ export default function SectionTech() {
                         </ul>
                     </div>
                     <div className="col-sm-4 col-sm-offset-0 col-xs-9 col-xs-offset-3">
+                        <h3 className="font-bold">
+                            <FontAwesomeIcon icon={faCcStripe} fixedWidth /> Stripe
+                        </h3>
+                        <ul className="list-custom">
+                            <li>Client-side JS Integration</li>
+                        </ul>
                         <h3 className="text-lg font-bold">
                             <FontAwesomeIcon icon={faFacebook} fixedWidth /> Facebook
                         </h3>
