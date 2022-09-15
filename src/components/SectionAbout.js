@@ -18,7 +18,7 @@ export default function SectionAbout(props) {
 
     return (
         <Section id="about" className={classNames("text-center", props.className)}>
-            <img src={business_people} className="mx-auto" />
+            <img src={business_people} className="mx-auto" width={500} />
             <h2 className="text-center text-4xl font-bold">About Brian Wendt</h2>
             <p className="text-center mb-2 text-2xl">Lead Developer @OntoDevelopment</p>
             <p className="text-justify mb-2">
