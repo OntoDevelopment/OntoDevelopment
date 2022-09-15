@@ -1,0 +1,72 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+.bg-orange {
+    background-color: #ff8b22;
+}
+
+.section {
+    min-height: 100vh;
+
+    .section-content {
+        padding: 24px;
+        vertical-align: middle;
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+.list-custom {
+    li {
+        margin-left: 2em;
+        margin-bottom: 0.25em;
+        position: relative;
+    }
+    li::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: .375em;
+        left: -1.5em;
+        background-color: red;
+        width: .75em;
+        height: .75em;
+        border-radius: 50%;
+    }
+}
+
+#github {
+  background-color: #0d1117;
+  color: #fff;
+}
+
+#linkedin {
+  background: #0077B5;
+  color: #fff;
+}
+
+#about {
+  .fancy-quote {
+    p {
+
+      .fa-quote-left {
+        position: relative;
+        opacity: .4;
+        left: -10px;
+        top: -10px;
+      }
+    }
+    footer {
+      font-size: .8em;
+    }
+    
+  }
+}
+
+#contact {
+  color: #fff;
+}
