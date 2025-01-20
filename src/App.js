@@ -15,7 +15,7 @@ function App() {
                     <img src={logo} alt="OntoDevelopment" aria-label="Logo for Onto Development" className="mx-auto" />
                 </div>
                 <h1 className="my-8 text-center text-3xl">
-                    Brian Wendt, Sr. Web Developer
+                    <span className="whitespace-nowrap">Brian Wendt</span>, <span className="whitespace-nowrap">Sr. Web Developer</span>
                 </h1>
             </Section>
             <SectionTech />

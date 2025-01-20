@@ -1,18 +1,32 @@
 import Section from "./Section";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCode, faCreditCard, faTerminal } from "@fortawesome/free-solid-svg-icons";
-import { faWordpress, faTwitter, faPaypal, faRebel, faFacebook, faCcStripe } from "@fortawesome/free-brands-svg-icons";
+import {
+    faCode,
+    faCreditCard,
+    faTerminal,
+    faAd,
+} from "@fortawesome/free-solid-svg-icons";
+import {
+    faWordpress,
+    faBluesky,
+    faPaypal,
+    faRebel,
+    faCcStripe,
+} from "@fortawesome/free-brands-svg-icons";
 
 export default function SectionTech() {
     return (
         <Section id="tech">
             <div className="container">
-                <h2 className="text-center text-xl font-bold mb-4">Full Stack JS & PHP Development</h2>
+                <h2 className="text-center text-xl font-bold mb-4">
+                    Full Stack JS & PHP Development
+                </h2>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                     <div className="col-sm-4 col-sm-offset-0 col-xs-9 col-xs-offset-3">
                         <h3 className="text-lg font-bold">
-                            <FontAwesomeIcon icon={faCode} fixedWidth /> Custom Development
+                            <FontAwesomeIcon icon={faCode} fixedWidth /> Custom
+                            Development
                         </h3>
                         <ul className="list-custom">
                             <li>Business Tools</li>
@@ -22,33 +36,38 @@ export default function SectionTech() {
                         </ul>
 
                         <h3 className="text-lg font-bold">
-                            <FontAwesomeIcon icon={faWordpress} fixedWidth /> WordPress
+                            <FontAwesomeIcon icon={faAd} fixedWidth />{" "}
+                            Advanced Conversion Tracking
                         </h3>
                         <ul className="list-custom">
+                            <li>Meta Conversion API</li>
+                            <li>Google Ads Enhanced Conversion</li>
+                        </ul>
+
+                        <h3 className="text-lg font-bold">
+                            <FontAwesomeIcon icon={faWordpress} fixedWidth />{" "}
+                            WordPress
+                        </h3>
+                        <ul className="list-custom">
+                            <li>Elementor Pro</li>
                             <li>Custom Themes</li>
                             <li>Custom Plugins</li>
-                        </ul>
-                        <h3 className="font-bold">
-                            <FontAwesomeIcon icon={faRebel} fixedWidth /> Rebel
-                        </h3>
-                        <ul className="list-custom">
-                            <li>Fight the Empire</li>
-                            <li>Get your attention</li>
                         </ul>
                     </div>
                     <div className="col-sm-4 col-sm-offset-0 col-xs-9 col-xs-offset-3">
                         <h3 className="font-bold">
-                            <FontAwesomeIcon icon={faTerminal} fixedWidth /> Frameworks & Libraries
+                            <FontAwesomeIcon icon={faTerminal} fixedWidth />{" "}
+                            Frameworks & Libraries
                         </h3>
                         <ul className="list-custom">
                             <li>
-                                Laravel <sup>9.x - 5.x</sup>
+                                Laravel <sup>11.x - 5.x</sup>
                             </li>
                             <li>
-                                Laravel Orchid <sup>13.x, 12.x</sup>
+                                Laravel Orchid <sup>14.x - 12.x</sup>
                             </li>
                             <li>
-                                React <sup>17.x 16.x</sup>
+                                React <sup>19.x 16.x</sup>
                             </li>
                             <li>
                                 React Native <sup>.7x, .6x</sup>
@@ -71,36 +90,44 @@ export default function SectionTech() {
                     </div>
                     <div className="col-sm-4 col-sm-offset-0 col-xs-9 col-xs-offset-3">
                         <h3 className="font-bold">
-                            <FontAwesomeIcon icon={faPaypal} fixedWidth /> Paypal
+                            <FontAwesomeIcon icon={faPaypal} fixedWidth />{" "}
+                            Paypal
                         </h3>
                         <ul className="list-custom">
                             <li>JS SDK Integration (Client & Node.js)</li>
                             <li>PHP SDK Integration</li>
                         </ul>
+
                         <h3 className="font-bold">
-                            <FontAwesomeIcon icon={faCreditCard} fixedWidth /> Authorize.Net
+                            <FontAwesomeIcon icon={faCreditCard} fixedWidth />{" "}
+                            Authorize.Net
                         </h3>
                         <ul className="list-custom">
                             <li>PHP SDK Integration</li>
                         </ul>
+
                         <h3 className="font-bold">
-                            <FontAwesomeIcon icon={faCcStripe} fixedWidth /> Stripe
+                            <FontAwesomeIcon icon={faCcStripe} fixedWidth />{" "}
+                            Stripe
                         </h3>
                         <ul className="list-custom">
                             <li>Client-side JS Integration</li>
                         </ul>
-                        <h3 className="text-lg font-bold">
-                            <FontAwesomeIcon icon={faFacebook} fixedWidth /> Facebook
+
+                        <h3 className="font-bold">
+                            <FontAwesomeIcon icon={faRebel} fixedWidth /> Rebel
                         </h3>
                         <ul className="list-custom">
-                            <li>PHP SDK Integration</li>
-                            <li>Javascript SDK Integration</li>
+                            <li>Fight the Empire</li>
+                            <li>Get your attention</li>
                         </ul>
+
                         <h3 className="text-lg font-bold">
-                            <FontAwesomeIcon icon={faTwitter} fixedWidth /> Twitter
+                            <FontAwesomeIcon icon={faBluesky} fixedWidth />{" "}
+                            BlueSky
                         </h3>
                         <ul className="list-custom">
-                            <li>API Integration</li>
+                            <li>AT Protocall Rest API</li>
                         </ul>
                     </div>
                 </div>

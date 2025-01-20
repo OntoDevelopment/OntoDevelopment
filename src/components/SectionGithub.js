@@ -8,12 +8,12 @@ export default function SectionGithub(props) {
     return (
         <Section id="github" className={classNames("text-center", props.className)}>
             <div className="text-8xl">
-                <a href="https://github.com/BrianWendt/" target="_blank">
+                <a href="https://github.com/BrianWendt/" target="_blank" rel="noreferrer">
                     <FontAwesomeIcon icon={faGithub} />
                 </a>
             </div>
             <div className="text-2xl md:text-4xl pt-5">
-                <a href="https://github.com/BrianWendt/" target="_blank">
+                <a href="https://github.com/BrianWendt/" target="_blank" rel="noreferrer">
                     github.com/BrianWendt
                 </a>
             </div>
