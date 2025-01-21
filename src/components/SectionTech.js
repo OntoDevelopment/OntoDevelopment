@@ -6,12 +6,12 @@ import {
     faCreditCard,
     faTerminal,
     faAd,
+    faCloud,
 } from "@fortawesome/free-solid-svg-icons";
 import {
     faWordpress,
-    faBluesky,
     faPaypal,
-    faRebel,
+    faAmazon,
     faCcStripe,
 } from "@fortawesome/free-brands-svg-icons";
 
@@ -30,14 +30,14 @@ export default function SectionTech() {
                         </h3>
                         <ul className="list-custom">
                             <li>Business Tools</li>
-                            <li>API Integraions</li>
+                            <li>API Integrations</li>
                             <li>Workflow Automation</li>
                             <li>Reporting &amp; Analytics</li>
                         </ul>
 
                         <h3 className="text-lg font-bold">
-                            <FontAwesomeIcon icon={faAd} fixedWidth />{" "}
-                            Advanced Conversion Tracking
+                            <FontAwesomeIcon icon={faAd} fixedWidth /> Advanced
+                            Conversion Tracking
                         </h3>
                         <ul className="list-custom">
                             <li>Meta Conversion API</li>
@@ -70,14 +70,10 @@ export default function SectionTech() {
                                 React <sup>19.x 16.x</sup>
                             </li>
                             <li>
-                                React Native <sup>.7x, .6x</sup>
+                                jQuery <sup>2.x 1.x</sup>
                             </li>
-                            <li>Expo managed workflow</li>
                             <li>
                                 Vue <sup>3.x 2.x</sup>
-                            </li>
-                            <li>
-                                jQuery <sup>2.x 1.x</sup>
                             </li>
                             <li>
                                 Twitter Bootstrap <sup>5.x - 2.x</sup>
@@ -85,7 +81,14 @@ export default function SectionTech() {
                             <li>
                                 Tailwind CSS <sup>3.x</sup>
                             </li>
-                            <li>Other: Guzzle, Axios, SASS</li>
+                            <li>
+                                React Native <sup>.7x, .6x</sup>
+                            </li>
+                            <li>Expo managed workflow</li>
+                            <li>FPDI & FPDF</li>
+                            <li>OpenSpout <sup>4.x</sup></li>
+                            <li>Guzzle, PHP HTTP Client</li>
+                            <li>Axios, JS HTTP Client</li>
                         </ul>
                     </div>
                     <div className="col-sm-4 col-sm-offset-0 col-xs-9 col-xs-offset-3">
@@ -115,19 +118,22 @@ export default function SectionTech() {
                         </ul>
 
                         <h3 className="font-bold">
-                            <FontAwesomeIcon icon={faRebel} fixedWidth /> Rebel
+                            <FontAwesomeIcon icon={faAmazon} fixedWidth /> AWS
                         </h3>
                         <ul className="list-custom">
-                            <li>Fight the Empire</li>
-                            <li>Get your attention</li>
+                            <li>SQS PHP SDK</li>
                         </ul>
 
                         <h3 className="text-lg font-bold">
-                            <FontAwesomeIcon icon={faBluesky} fixedWidth />{" "}
-                            BlueSky
+                            <FontAwesomeIcon icon={faCloud} fixedWidth /> Other
+                            APIs
                         </h3>
                         <ul className="list-custom">
-                            <li>AT Protocall Rest API</li>
+                            <li>Google Drive</li>
+                            <li>Google Sheets</li>
+                            <li>Google Books</li>
+                            <li>GreenArrow</li>
+                            <li>BlueSky AT Protocall Rest API</li>
                         </ul>
                     </div>
                 </div>
