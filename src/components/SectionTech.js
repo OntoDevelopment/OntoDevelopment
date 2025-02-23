@@ -70,10 +70,10 @@ export default function SectionTech() {
                                 React <sup>19.x — 16.x</sup>
                             </li>
                             <li>
-                                jQuery <sup>2.x 1.x</sup>
+                                jQuery <sup>2.x, 1.x</sup>
                             </li>
                             <li>
-                                Vue <sup>3.x 2.x</sup>
+                                Vue <sup>3.x, 2.x</sup>
                             </li>
                             <li>
                                 Twitter Bootstrap <sup>5.x — 2.x</sup>
