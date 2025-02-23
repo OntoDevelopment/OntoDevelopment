@@ -61,13 +61,13 @@ export default function SectionTech() {
                         </h3>
                         <ul className="list-custom">
                             <li>
-                                Laravel <sup>11.x - 5.x</sup>
+                                Laravel <sup>11.x — 5.x</sup>
                             </li>
                             <li>
-                                Laravel Orchid <sup>14.x - 12.x</sup>
+                                Laravel Orchid <sup>14.x — 12.x</sup>
                             </li>
                             <li>
-                                React <sup>19.x 16.x</sup>
+                                React <sup>19.x — 16.x</sup>
                             </li>
                             <li>
                                 jQuery <sup>2.x 1.x</sup>
@@ -76,7 +76,7 @@ export default function SectionTech() {
                                 Vue <sup>3.x 2.x</sup>
                             </li>
                             <li>
-                                Twitter Bootstrap <sup>5.x - 2.x</sup>
+                                Twitter Bootstrap <sup>5.x — 2.x</sup>
                             </li>
                             <li>
                                 Tailwind CSS <sup>3.x</sup>
